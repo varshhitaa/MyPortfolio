@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Varshita Yarabadi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Varshita's Portfolio :)</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get in Touch!!</h2>
+            </div>
+            <div class = "contact-text">
+                <h6>Whether you have a question, want to start a project or simply want to connect.
+                    <br>
+                    Feel free to send me a message in the contact form</h6>
+            </div>
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="4b3b130f-1d32-4f53-8364-6e309a9d50b6">
+                    
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Your Message" rows="4" required></textarea>
+                    </div>
+
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <!-- Custom Confirmation / Success Page -->
+                   <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/success.html"> -->
+
+                    <button type="submit">Submit Form</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

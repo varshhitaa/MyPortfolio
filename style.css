@@ -1,0 +1,687 @@
+body {
+    background-color: #f3e9dc;
+    margin: 0; 
+    
+}
+/* Style for the header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #f3e9dc; 
+    font-family: 'Times New Roman', serif;
+}
+
+/* Style for the logo */
+.logo {
+    color: #895737;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 50px;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+    margin-right: 70px;
+    font-family: 'Times New Roman', serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #895737; /* Adjust link color */
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+}
+
+.nav-links a:hover {
+    color: #895737; 
+}
+
+/* Style for the intro section */
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin: 110px;
+    margin-right: 40px;
+    
+}
+
+/* Text section styling */
+.text-section {
+    flex: -7;
+    margin-right: 50px;
+    
+}
+
+.text-section .badge {
+    font-size: 1em;
+    color: #895737;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', serif;
+
+}
+
+/* Image section styling */
+.image-section {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.image-section img {
+    width: 300%; 
+    margin-bottom: 90px;
+    max-width: 750px; 
+    height: 450px; 
+}
+
+
+.text-section h1 {
+    font-size: 3em;
+    color: #472525;
+    line-height: 1.4;
+    font-family: 'Times New Roman', serif;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+.resume-btn {
+    background-color: #f3e9dc;
+    color: #895737;
+    border: 2px solid #895737;
+    font-family: 'Times New Roman', serif;
+}
+
+.projects-btn {
+    background-color: #f3e9dc;
+    color: #895737;
+    border: 2px solid #895737;
+    font-family: 'Times New Roman', serif;
+}
+
+.resume-btn:hover,
+.projects-btn:hover {
+    background-color: #d2b48c; 
+}
+
+/* Image section styling */
+.image-section {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 50%; 
+}
+
+.social-links {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.social-links a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.1);
+}
+
+/* resume */
+.resume-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px 0; 
+    font-family: 'Times New Roman', serif;
+}
+h1 {
+    margin-right: 20px; 
+    font-size: 36px; 
+    color: #512a2a; 
+    font-family: 'Times New Roman', serif;
+}
+.resume-download-btn {
+    display: inline-flex; 
+    align-items: center;
+    text-decoration: none;
+    font-size: 10px;
+}
+.resume-download-btn img {
+    margin-right: 15px; 
+}
+
+.resume-nav {
+    text-align: center;
+    padding: 20px;
+    margin: -20px auto;
+    background-color: #f3e9dc; /* Matches the body background */
+    font-family: 'Times New Roman', serif;
+}
+
+.resume-nav button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f3e9dc; /* Dark brown color for buttons */
+    color: #895737; /* White text for readability */
+    border: solid;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: bold;
+    font-family: Times New Roman ;
+
+}
+
+.resume-nav button:hover {
+    background-color: #d0a279; /* Lighter shade for hover */
+}
+
+.resume-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Consistent with the design */
+    background-color: #f3e9dc; /* White background for sections */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+.resume-section h2 {
+    color: #895737; /* Header color to match logo */
+    font-family: 'Times New Roman', serif;
+}
+
+/* education */
+#education {
+    background-color: #f4e7d7; /* Cream background */
+    color: #653d24; /* Text color - dark brown */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', serif;
+}
+
+.university-logo {
+    width: 100px; /* Adjust based on your logo's aspect ratio */
+    float: left;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.education-details {
+    overflow: hidden; /* Clears float */
+}
+
+.education-content {
+    background-color: #ffffff; /* White background for the content area */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-details p {
+    margin: 5px 0;
+    line-height: 1.6;
+    
+}
+
+.education-details strong {
+    color: #512a2a; /* Coffee color for emphasis */
+}
+
+
+/* Work Experience Section */
+#work-experience {
+    background-color: #f4e7d7; /* Cream background for the entire section */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.work-card {
+    background-color: #ffffff; 
+    color: #653d24; /* Dark brown text to match the Education section */
+    padding: 20px;
+    margin-bottom: 20px; /* Space between cards */
+    border-radius: 15px; /* Rounded corners for cards */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.work-card h3 {
+    color: #512a2a; /* Darker text for job titles */
+}
+
+.work-card p, .work-card li {
+    color: #653d24; /* Dark brown text for details */
+}
+
+.work-card strong {
+    color: #512a2a; /* Dark brown for strong emphasis */
+}
+
+/* Ensures all text within the work experience cards is appropriately styled */
+.work-card p, .work-card ul {
+    font-size: 16px; 
+    font-family: 'Times New Roman', serif;
+}
+
+.work-card ul {
+    list-style: inside; /* Neatly indents the list */
+    padding-left: 0; /* Removes default padding */
+}
+
+.work-card li {
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Improves readability */
+}
+
+.projects-header{
+    display: flex;
+    justify-content: center; /* Center the items in the header */
+    align-items: center;
+    padding: 8px 0; 
+    font-family: 'Times New Roman', serif;
+}
+
+#project-experience {
+    background-color: #f4e7d7; /* Cream background for the entire section */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded corners for the section */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.project-card {
+    background-color: #ffffff; /* White background for each project detail card */
+    color: #653d24; /* Dark brown text to match the Education section */
+    padding: 20px;
+    margin-bottom: 20px; /* Space between cards */
+    border-radius: 15px; /* Rounded corners for cards */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.project-card h3 {
+    color: #512a2a; /* Darker text for project titles */
+}
+
+.project-card p, .project-card li {
+    color: #653d24; /* Dark brown text for details */
+}
+
+.project-card strong {
+    color: #512a2a; /* Dark brown for strong emphasis */
+}
+
+.project-card p, .project-card ul {
+    font-size: 16px; /* Readable text size */
+}
+
+.project-card ul {
+    list-style: inside; /* Neatly indents the list */
+    padding-left: 0; /* Removes default padding */
+}
+
+.project-card li {
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Improves readability */
+}
+
+#certification {
+    background-color: #f4e7d7; /* Cream background for the entire section */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded corners for the section */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.certification-card {
+    background-color: #ffffff; /* White background for the card */
+    color: #653d24; /* Dark brown text to match other sections */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners for the card */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    list-style: inside; /* Positions the bullet inside the content box */
+}
+
+.certification-card ul {
+    padding-left: 0; /* Aligns text nicely within the card */
+}
+
+.certification-card li {
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Improves readability */
+    font-size: 16px; /* Consistent font size with other sections */
+}
+
+.certification-card strong {
+    color: #512a2a; /* Darker text for emphasis */
+}
+
+#skills-technologies {
+    background-color: #f4e7d7; /* Cream background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-category {
+    background-color: #ffffff; /* White background for each category */
+    padding: 20px;
+    margin: 10px;
+    flex: 1; /* Flex grow equally */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.skills-category h3 {
+    color: #512a2a; /* Dark text for headers */
+}
+
+.skills-category ul {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+}
+
+.skills-category li {
+    margin-bottom: 8px; /* Space between items */
+    color: #653d24; /* Dark brown text */
+}
+
+/* Projects */
+/* Projects Page Styling */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    color: #653d24;
+    font-family: 'Times New Roman', serif;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-info {
+    padding: 15px;
+}
+
+.project-title {
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    color: #512a2a;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.project-overview {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+.view-more {
+    text-decoration: none;
+    color: #895737;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+}
+
+/*project details*/
+.project-title-banner {
+    text-align: center;
+    margin: 20px 0;
+    color: #895737;
+    font-family: 'Times New Roman', serif;
+}
+
+.project-detail {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Consistent with other content sections */
+    border-radius: 10px; /* Softens the edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #653d24; 
+    font-family: 'Times New Roman', serif;
+}
+
+.project-detail img {
+    max-width: 50%; /* Limits the image to not exceed the container's width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any extra space below the image */
+    margin: 20px auto; /* Centers the image horizontally */
+}
+
+.project-detail h4 {
+    color: #512a2a;
+    margin-top: 20px;
+    font-family: 'Times New Roman', serif;
+}
+
+.project-detail ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Adds bullet points */
+}
+
+.project-detail li {
+    margin-bottom: 10px;
+}
+
+/* Enhance the visual appeal of headers in the project details */
+.project-detail h2, .project-detail h3, .project-detail h4 {
+    color: #512a2a;
+}
+
+.project-detail h3, .project-detail p, .project-detail ul {
+    color: #653d24; /* Consistent text color for all projects */
+}
+
+.project-detail a.view-more {
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    color: #895737; /* Link color */
+}
+
+/* Add or merge these styles with your existing CSS */
+.project-title-banner {
+    text-align: center;
+    margin: 20px 0;
+    color: #895737;
+}
+
+.project-detail {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Consistent with other content sections */
+    border-radius: 10px; /* Softens the edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #653d24; 
+}
+
+.project-detail h2, .project-detail h3, .project-detail h4 {
+    color: #512a2a;
+}
+
+.download-button {
+    background-color: #653d24; /* Dark brown */
+    color: #fff; /* White text for visibility */
+    text-decoration: none; /* No underline */
+    padding: 10px 20px; /* Padding for better touch */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Necessary for proper spacing */
+}
+
+.download-button:hover {
+    background-color: #895737; /* Lighter brown on hover */
+}
+
+
+.download-container {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #653d24; /* Dark background */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.download-button {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Size of the text */
+    font-weight: bold;
+}
+
+.download-button:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+/*contact*/
+/* Contact Page Specific Styles */
+.contact-container {
+    background-color: #f3e9dc; /* Matching the body background color for consistency */
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-header {
+    font-size: 1.8em;
+    color: #4e281d; /* Coffee */
+    margin-bottom: 10px; /* Spacing after the header */
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
+
+.contact-text{
+    font-size: 1.2em;
+    color: #6b3c30; /* Coffee */
+    margin-bottom: 10px; /* Spacing after the header */
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Max width for form */
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: #895737; /* Text color */
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    margin-top: 15px; 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 24px); /* Subtracting the total padding */
+    padding: 10px; /* Comfortable padding */
+    border: 2px solid #C08552; /* Caramel color */
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    background-color: #fff; /* White background */
+    font-family: 'Times New Roman', serif;
+    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+    color: #5E3023; /* Brownie color for the text */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #C08552;  /* Placeholder text color Brownie */
+    
+}
+
+.contact-form button {
+    width: calc(100% - 24px); /* Match input field width considering padding */
+    padding: 12px;
+    margin-top: 15px; /* Adds space above the button */
+    background-color: #895737; /* Coffee color */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; /* White text */
+    cursor: pointer;
+    font-family: 'Times New Roman', serif;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #5E3023; /* Brownie for hover state */
+}
+

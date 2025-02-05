@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FromScratch - Varshita's Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Varshita's Portfolio :)</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-title-banner">
+            <h1>FromScratch - Artistic Social Media Platform</h1>
+        </div>
+        <section class="project-detail">
+            <h3><strong><u>Project Overview</u></strong></h3>
+            <p>FromScratch is a unique social media platform inspired by PictoChat, designed specifically for artists who cherish drawing as a form of expression. Targeted towards users aged 13 and above, it caters particularly to young adults nostalgic for the PictoChat experience, offering new ways to communicate through drawings.</p>
+            <p>We employed JavaScript extensively to enable dynamic drawing capabilities on the platform. The use of event listeners and query selectors was crucial in developing interactive features that allow users to create and share their "Scratches"—drawings that can be posted, shared, and commented on within the community.</p>
+            <br>
+            <h3><strong><u>Technical Implementation</u></strong></h3>
+            <p>Our development process involved a collaboration with a cross-functional team of five, utilizing the Flask framework to build a robust backend. This collaboration led to a significant increase in user engagement by 40%.</p>
+            <p>To facilitate the sharing of drawings, we developed a system where:
+                <ul>
+                    <li>Image data from the canvas is captured as a data URI and sent to the server via a fetch request encapsulated in a JSON object.</li>
+                    <li>The Flask backend receives the JSON, decodes the data URI to bytes, and processes it to save as an image file on the server.</li>
+                </ul>
+            </p>
+            <br>
+            <div>
+                <h3>Project Link</h3>
+                <p><a href="https://github.com/CesarCGuzman/itsc-3155-FromScratch" target="_blank" class="view-more">View Project on GitHub</a>.</p>
+            </div>
+            
+        </section>
+    </main>
+
+    
+</body>
+</html>
